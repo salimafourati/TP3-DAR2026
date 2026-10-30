@@ -129,19 +129,19 @@ Le serveur détecte la déconnexion et libère les ressources associées à la s
 
 **Activation du client Telnet sous Windows**
 
-![Activation Telnet](screenshots/activite1/telnet/telnet_activation.png)
+![Activation Telnet](Screenshots/activite1/telnet/telnet_activation.png)
 
 **Connexion du premier client Telnet**
 
-![Premier client Telnet](screenshots/activite1/telnet/telnet_client1.png)
+![Premier client Telnet](Screenshots/activite1/telnet/telnet_client1.png)
 
 **Connexion simultanée d'un deuxième client**
 
-![Deuxième client Telnet](screenshots/activite1/telnet/telnet_client2.png)
+![Deuxième client Telnet](Screenshots/activite1/telnet/telnet_client2.png)
 
 **Affichage des connexions et des messages dans la console serveur**
 
-![Serveur Telnet](screenshots/activite1/telnet/telnet_serveur.png)
+![Serveur Telnet](Screenshots/activite1/telnet/telnet_serveur.png)
 
 **Résultat :** le test Telnet permet de confirmer que le serveur accepte des connexions TCP et peut communiquer avec plusieurs clients indépendamment de l'implémentation du client Java.
 
@@ -151,25 +151,25 @@ Le serveur détecte la déconnexion et libère les ressources associées à la s
 
 Le serveur démarre et se met en attente des connexions clientes sur le port 1234.
 
-![Démarrage du serveur](screenshots/activite1/serveur.png)
+![Démarrage du serveur](Screenshots/activite1/serveur.png)
 
 ### B. Connexion du premier client
 
 Le premier client établit une connexion avec le serveur et reçoit un message de bienvenue contenant son numéro.
 
-![Premier client](screenshots/activite1/client1.png)
+![Premier client](Screenshots/activite1/client1.png)
 
 ### C. Connexion simultanée de plusieurs clients
 
 Un deuxième client se connecte alors que le premier est toujours actif. Le serveur accepte les deux connexions et attribue un numéro différent à chaque client.
 
-![Deux clients connectés](screenshots/activite1/client2.png)
+![Deux clients connectés](Screenshots/activite1/client2.png)
 
 ### D. Échange de messages
 
 Les clients envoient des messages au serveur. Celui-ci affiche les messages reçus et renvoie une confirmation à chaque client.
 
-![Communication client-serveur](screenshots/activite1/communication.png)
+![Communication client-serveur](Screenshots/activite1/communication.png)
 
 **Bilan de l'activité 3-1 :**
 
@@ -276,27 +276,27 @@ Ainsi, chaque opération calculée avec succès entraîne une incrémentation co
 
 Le serveur démarre et attend les connexions clientes.
 
-![Serveur de calculatrice](screenshots/activite2/serveur.png)
+![Serveur de calculatrice](Screenshots/activite2/serveur.png)
 
 ### B. Connexion des clients
 
 Plusieurs clients se connectent au serveur. Chaque client est pris en charge par un thread indépendant.
 
-![Premier client](screenshots/activite2/client1.png)
+![Premier client](Screenshots/activite2/client1.png)
 
-![Deuxième client](screenshots/activite2/client2.png)
+![Deuxième client](Screenshots/activite2/client2.png)
 
 ### C. Exécution des opérations
 
 Le client envoie des objets `Operation` contenant les opérandes et l'opérateur. Le serveur effectue les calculs et renvoie les résultats.
 
-![Résultats des calculs](screenshots/activite2/calculs.png)
+![Résultats des calculs](Screenshots/activite2/calculs.png)
 
 ### D. Vérification du compteur global
 
 Plusieurs opérations sont exécutées depuis différents clients. Le serveur affiche le nombre total d'opérations calculées après chaque incrémentation.
 
-![Compteur global](screenshots/activite2/compteur.png)
+![Compteur global](Screenshots/activite2/compteur.png)
 
 **Bilan de l'activité 3-2 :**
 
